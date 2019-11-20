@@ -1,0 +1,17 @@
+<div>
+    <div id="body-announcement">
+        <h3 class="heading">Announcements !!</h3>
+      <ul *ngFor ="let announcement of announcements let i = index" class="body">
+        <li class="list"> 
+          <div id="list-header">
+              <span class="title"> <strong>{{announcement.title}} </strong></span> 
+              <br>
+          </div>
+          <div class="list-message">
+            <span class="message"> {{announcement.message}} </span>
+          </div>
+        </li>
+      </ul>
+    </div>
+</div>
+

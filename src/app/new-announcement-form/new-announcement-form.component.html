@@ -1,0 +1,20 @@
+<p>new-announcement-form works!</p>
+
+<div>
+    <h3> {{ mode }} New Announcement Form</h3>
+    <form (ngSubmit)="onSubmit()" #myForm="ngForm">
+      <mat-form-field >
+        <input matInput placeholder="Title" id="title" [(ngModel)]=" title" name="title" >
+      </mat-form-field>
+      <br>
+      <mat-form-field >
+        <input matInput placeholder="Message" id="message" [(ngModel)]=" message" name="message" >
+      </mat-form-field>
+    
+      <p>
+        <button type="submit" mat-raised-button>Submit</button>
+      </p>
+    </form>
+    </div>
+    
+

@@ -1,0 +1,16 @@
+<h2 class="heading">Frequesntly Asked Questions !!</h2>
+
+<button class="accordion" (click)="condition1 = !condition1">To buy items from website does user need to create account?</button>
+<div class="panel" *ngIf="condition1">
+  <p>Yes, in order to buy supplies from school website, user needs to login to the portal first then only their order will be placed.</p>
+</div>
+
+<button class="accordion" (click)="condition2 = !condition2">In how many days items will reach?</button>
+<div class="panel" *ngIf="condition2">
+  <p>In 2-3 business days items will be delivered to the students, either in thier home address or in school to collect.</p>
+</div>
+
+<button class="accordion" (click)="condition3 = !condition3">Is this compulsory to buy items from this website?</button>
+<div class="panel" *ngIf="condition3">
+  <p>No, the purpose of this website is provide a platform to Parents where they can buy schools items in one click. But its not necessary to buy from school you can buy the same items from outside also. </p>
+</div>

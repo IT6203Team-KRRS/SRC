@@ -1,0 +1,23 @@
+<p>teacher-announcements works!</p>
+
+<div>
+        <div id="body-announcement">
+        <h3 class="heading">Announcements !!</h3>
+          <ul *ngFor ="let announcement of announcements let i = index" class="body">
+            <li class="list"> 
+              <div id="list-header">
+                  <span class="title"> <strong>{{announcement.title}} </strong></span> 
+                  <button mat-button color="warn" (click)="onDelete(announcement._id)" class="button">DELETE</button>
+    
+                  <button mat-button color="accent" [routerLink]="['/editAnnouncement', announcement._id]" class="button">UPDATE</button>
+                  <br>
+                </div>
+                <div class="list-message">
+                  <span class="message"> {{announcement.message}} </span>
+                </div>
+            </li>
+          </ul>
+        </div>
+</div>
+    
+    

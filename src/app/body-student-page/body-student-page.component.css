@@ -1,0 +1,14 @@
+#body{
+    display: flex;
+    flex-flow: row wrap; 
+    background-color:white;
+}
+#announcement{
+    width: 50%;
+    padding: 5px;
+    padding-right: 15px;
+}
+#home-body{
+    display: block;
+    padding: 10px;
+}

@@ -1,0 +1,35 @@
+#bodyOptions{
+    display: flex;
+}
+.block{
+    display: flex;
+    width: 230px;
+    height: 65%;
+    flex-flow: column;
+    padding: 33px;
+    margin: 25px;
+    margin-top: 25%;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: large;
+    font-display: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    box-shadow: aliceblue;
+}
+/*.block:after{
+    box-shadow: 0 15px 20px rgba(196, 98, 98, 0.3);
+}*/
+#supplyList{
+    background-color: rgb(2, 61, 61);
+}
+#purchaseOnline{
+    background-color: darkgoldenrod;
+}
+#makePayment{
+    background-color: brown;
+}
+#searchStore{
+    background-color: cornflowerblue;
+}
